@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(
+    to right,
+    rgb(15, 136, 206),
+    rgb(225, 10, 245)
+  );
+}
+.all_inputs {
+  background-color: white;
+  width: 50%;
+  height: 50vh;
+  margin-top: 140px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  top: 80px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  z-index: -10;
+ 
+}
+
+.inputs {
+  width: 40%;
+  text-align: center;
+  padding: 15px;
+  border-bottom: 1px solid grey;
+  margin: 30px 0px  40px;
+  outline: none;
+  display: block;
+  margin: auto;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border: 1px solid black;
+  border-radius: 5px;
+
+}
+
+#gender {
+  margin-left: 50px;
+  margin-top: 40px;
+  cursor: pointer;
+  width: 20px;
+  display: block;
+  margin: auto;
+}
+
+.all_inputs h3 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.btn {
+  width: 15%;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0px 0px;
+  position: relative;
+  left: 800px;
+  cursor: pointer;
+  bottom: 0px;
+}
+.btn:hover {
+  background: rgb(15, 136, 206);
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.marign{
+  margin-top: 50px;
+}
